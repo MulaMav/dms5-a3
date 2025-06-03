@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     handleScroll();
 });
 
-//These codes down are wrote by Chatgpt
+
 document.addEventListener("DOMContentLoaded", function () {
     const { Engine, Render, World, Bodies, Runner } = Matter;
 

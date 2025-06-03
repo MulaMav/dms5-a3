@@ -145,15 +145,15 @@ header img {
 
 
 
-.p1 { background-image: url('/dms5_a3/q1.png'); }
-.p2 { background-image: url('/dms5 a1/q2.png'); }
-.p3 { background-image: url('/dms5 a1/q3.png'); }
-.p4 { background-image: url('/dms5 a1/q4.png'); }
-.p5 { background-image: url('/dms5 a1/q5.png'); }
-.p6 { background-image: url('/dms5 a1/q6.png'); }
-.p7 { background-image: url('/dms5 a1/q7.png'); }
-.p8 { background-image: url('/dms5 a1/q8.png'); }
-.p9 { background-image: url('/dms5 a1/q9.png'); }
+.p1 { background-image: url('q1.png'); }
+.p2 { background-image: url('q2.png'); }
+.p3 { background-image: url('q3.png'); }
+.p4 { background-image: url('q4.png'); }
+.p5 { background-image: url('q5.png'); }
+.p6 { background-image: url('q6.png'); }
+.p7 { background-image: url('q7.png'); }
+.p8 { background-image: url('q8.png'); }
+.p9 { background-image: url('q9.png'); }
 
 
 
