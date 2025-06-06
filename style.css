@@ -56,7 +56,7 @@ header img {
 .qa-container {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
     margin-bottom: 40px;
     font-size: 20px;
     opacity: 0; 
@@ -158,22 +158,6 @@ header img {
 
 
 
-.video-container {
-    text-align: center; 
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 200px;
-    z-index: 1;
-}
-
-
-.video-title {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
 
 .floating-video {
     width: 800px; 
@@ -189,6 +173,23 @@ header img {
     0% { transform: translateY(0); }
     100% { transform: translateY(-15px); }
 }
+
+ .image-row {
+      display: flex;
+      justify-content: center; /* 可选：水平居中 */
+      align-items: center;     /* 可选：垂直居中 */
+      gap:60px;               /* 可选：两张图片之间的间距 */
+    }
+
+    /* 图片样式：保持等比例 */
+    .image-row img {
+      max-width: 100%;   /* 图片不会超过容器宽度 */
+      height: auto;      /* 保持纵横比 */
+      /* 你可以根据需要设置固定宽度，比如：
+      width: 300px;
+      height: auto;
+      */
+    }
 
 #falling-objects-container {
     position: absolute;
